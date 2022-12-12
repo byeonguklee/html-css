@@ -1,0 +1,130 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  height: 600px;
+}
+
+.index__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__top__column {
+  width: 33%;
+}
+
+.index__top:first-child {
+  display: flex;
+  padding-left: 20px;
+}
+
+.index__top:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.index__top:last-child {
+  display: flex;
+  padding-right: 20px;
+}
+
+.index__middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__middle__comlumn {
+  width: 50%;
+}
+
+.index__middle--orange {
+  margin: 10px;
+  display: flex;
+  padding-left: -20px;
+  background-color: rgb(255, 188, 18);
+  color: white;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__middle__text {
+  margin: 10px;
+}
+
+.index__plays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__plays--rectbtn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 130px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 3px 0 0;
+}
+
+.index__plays--cycbtn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0 3px 0 0;
+}
+
+.index__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.index__bottom__row {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.index__bottom__row__art {
+  margin-left: 60px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.index__bottom__row__text {
+  margin-left: 20px;
+}
+
+.index__bottom__row__text h3 {
+  margin-bottom: -5px;
+}
+
+.index__bottom__row__art--1 {
+  background-color: rgb(248, 90, 43);
+}
+.index__bottom__row__art--2 {
+  background-color: rgb(254, 137, 187);
+}
+.index__bottom__row__art--3 {
+  background-color: rgb(25, 71, 228);
+}
+.index__bottom__row__art--4 {
+  background-color: rgb(0, 198, 172);
+}

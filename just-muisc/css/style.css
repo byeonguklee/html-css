@@ -1,0 +1,33 @@
+@import "reset.css";
+
+/* compoents */
+@import "components/header.css";
+@import "components/other-songs.css";
+@import "components/shadow.css";
+
+/* screens */
+@import "screens/page-one.css";
+@import "screens/page-two.css";
+
+* {
+  color: black;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(246, 245, 246);
+}
+
+body > div {
+  background-color: white;
+  width: 366px;
+  height: 800px;
+  border-radius: 40px;
+}
+
+a:visited {
+  color: black;
+}

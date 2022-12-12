@@ -1,0 +1,86 @@
+.page-one {
+  position: relative;
+}
+
+.main-singer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-singer__img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.main-singer__name {
+  font-size: x-large;
+  font-weight: 900;
+  margin: 15px;
+}
+
+.main-singer__genre {
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-btns__btn {
+  width: 125px;
+  height: 45px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 40px 0px;
+}
+
+.main-btns__btn--black {
+  background-color: black;
+  color: white;
+}
+
+.main-btns__btn--white {
+  background-color: white;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 335px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__column__text {
+  color: white;
+  margin-left: 10px;
+}
+
+.navigation__column__text--h3 {
+  font-size: 12px;
+  color: silver;
+  padding-bottom: 3px;
+}
+
+.navigation__column__text--h4 {
+  padding-top: 5px;
+}
+
+.navigation__column__icon {
+  color: white;
+  margin: 0px 12px;
+}
